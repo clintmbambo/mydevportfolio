@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0f172a;
+            background-image: 
+                radial-gradient(circle at 2px 2px, rgba(56, 189, 248, 0.05) 1px, transparent 0),
+                linear-gradient(to bottom, #0f172a, #1e293b);
+            background-size: 40px 40px, 100% 100%;
+            color: #f8fafc;
+            scroll-behavior: smooth;
+        }
+
+        .glass {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-link:after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #38bdf8;
+            transition: width .3s;
+        }
+        .nav-link:hover:after {
+            width: 100%;
+        }
+
+        .profile-img-container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+        }
+
+        .profile-img-container::before {
+            content: '';
+            position: absolute;
+            inset: -8px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #38bdf8, #818cf8);
+            z-index: -1;
+            filter: blur(12px);
+            opacity: 0.6;
+        }
