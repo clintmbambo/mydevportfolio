@@ -15,8 +15,8 @@ A clean, responsive personal portfolio website showcasing my projects and skills
 * Project gallery with hover effects
 * Functional contact form (or link to email)
 * Smooth scroll navigation
-
+OUR_USERNAME/YOUR_REPO_NAME
 ## 🏗️ How to Run Locally
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+   git clone [https://github.com/clintmbambo/mydevportfolio.git](https://github.com/clintmbambo/mydevportfolio.git)
