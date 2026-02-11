@@ -51,3 +51,7 @@
             filter: blur(12px);
             opacity: 0.6;
         }
+
+        .go-back {
+            text-decoration: none;
+        }
